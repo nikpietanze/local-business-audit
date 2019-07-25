@@ -1,4 +1,4 @@
-// Switches the fetch button based on certain conditions and passes the next page token
+// IIFE Init
 (function() {
   const container = document.getElementById("LBA");
 
