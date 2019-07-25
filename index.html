@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Google Places Business Audit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="LBA">
+    <div class="container main">
+      <div class="title">
+        <h1>Local Businesses</h1>
+      </div>
+
+      <div class="dataInput">
+        <div class="form">
+          <input type="text" id="searchQuery" placeholder="Search Queries">
+          <button id="fetchData" type="submit">Fetch</button>
+        </div>
+      </div>
+
+      <div class="process buttons">
+        <button id="newSearch">New Search</button>
+        <button id="exportData">Export Data</button>
+      </div>
+    </div>
+  
+    <div class="container output">
+      <div id="output"></div>
+    </div>
+    
+    <span id="npt"></span>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

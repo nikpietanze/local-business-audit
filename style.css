@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#LBA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  background: url(https://www.nikpietanze.com/img/auditbg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#LBA * {
+  box-sizing: border-box;
+  overflow: hidden
+}
+
+.container.main {
+  width: 100%;
+  max-width: 60%;
+  margin: auto;
+  flex-direction: column
+}
+
+.title h1, .title h2 {
+  color: #eee
+}
+
+.title h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 2%
+}
+
+.content p {
+  color: #eee;
+  margin: 1% 0 3%
+}
+
+.dataInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.dataInput .form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dataInput input {
+  padding: 2%;
+  width: 85%;
+  border-radius: 10px;
+  border: none
+}
+
+.dataInput button {
+  padding: 2%;
+  width: 14%;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  border: 1px solid #333;
+  color: #eee;
+  transition: all .3s ease
+}
+
+.dataInput button:hover {
+  background-color: transparent;
+  border-color: #eee
+}
+
+.dataInput input, .dataInput button {
+  font-size: 1rem  
+}
+
+.process {
+  display: none
+}
+
+.process.buttons {
+  margin-top: 1%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center
+}
+
+.process.buttons button {
+  padding: .5% 0;
+  font-size: .7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgba(238, 238, 238, .8);
+  color: #333;
+  transition: all .3s ease;
+  cursor: pointer;
+  border-radius: 5px;
+  flex-basis: 16%;
+  border: 1px solid #333
+}
+
+.process.buttons button:hover {
+  background-color: transparent;
+  color: #eee;
+  border-color: #eee
+}
+
+#newSearch {
+  margin-right: 1%
+}
+
+.container.output {
+  max-width: 95%;
+  margin: 4% auto;
+  padding: 4%;
+  background-color: rgba(0, 0, 0, .5);
+  border: 1px solid #333;
+  border-radius: 15px;
+  display: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center
+}
+
+#output {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%
+}
+
+#output .business {
+  display: flex;
+  flex: 48%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%
+}
+
+#output .business h2 {
+  font-size: 1.25rem;
+  text-decoration: underline;
+  color: #fff
+}
+
+#output .business .content .heading {
+  font-weight: bold;
+  color: #fff
+}
+
+#output .business .content p {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+#output .business .content p:last-of-type {
+  margin-bottom: 20px
+}
+
+#LBA #npt {
+  display: none !important
+}
+
+.move-left {
+  margin: 0 !important;
+  margin-left: 3% !important
+}
+
+.space-top {
+  padding-top: 5%
+}
+
+.show {
+  display:flex !important
+}
+
+.hide {
+  display: none
+}
+
+.short {
+  width: 76.5%;
+  margin: 0;
+  border-color: #555
+}
