@@ -16,7 +16,8 @@
     nextPageToken = document.querySelector('#npt').textContent;
     
     // Assigns the Google Places API Key | URL to make the call | and the Proxy URL
-    const key = 'AIzaSyAjBVCggVpqhM4B-yBUY87TXOHDDAk6yCQ',
+    // Add your API key here
+    const key = '',
       proxyURL = "https://cors-anywhere.herokuapp.com/";
 
     // Grabs the data entered by the user
