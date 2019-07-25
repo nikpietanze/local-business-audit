@@ -72,8 +72,6 @@ function fetchData(finalURL, fetchBtn) {
     .then(response => response.json())
     .then(data => {
 
-      console.log(data);
-
       // Grabs the token for the next page
       document.querySelector('#npt').textContent=data.next_page_token;
 
@@ -113,8 +111,6 @@ function nextPage(finalURL, fetchBtn) {
   })
   .then(response => response.json())
   .then(data => {
-
-    console.log(data);
 
     // Places the token for the next page
     document.querySelector('#npt').textContent=data.next_page_token;
